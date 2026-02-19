@@ -172,6 +172,7 @@ func argparse(args []string) {
 
 func printHelp () {
 	fmt.Println(`login-gen arguments:
+	--help, -h   — Print help
 	--quantity, -q   — quantity of logins at same time
 	--piece-amount, -a   — quantity of parts of login at same time
 	--piece-size, -s   — quantity of syllabes in piece of login
